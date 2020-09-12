@@ -1,9 +1,9 @@
 !pip3 install adafruit.io
 from Adafruit_IO import RequestError, Client, Feed
 from Adafruit_IO import Data
-import os
+
 username = 'Sagar_jairaj'                   
-code = os.getenv('code')  
+code = 'aio_iimD058JCLdEBS9uqMc3E3Wtazsi'  
 aio = Client(username,code)
 
 !pip install python-telegram-bot
